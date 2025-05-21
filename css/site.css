@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+
+body{
+    font-family: 'Montserrat'!important;
+}
+
+.image-home {
+    background-image: url("../images/Volcan.avif");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: unset;
+}
+
+.font-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.font-title2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.font-title-desc{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.lista-redes{
+    list-style: none;
+    font-size: 25px;
+    padding-left: 1.5px;
+    margin: 1.5px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.hover :hover{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.bg1{
+    background: #22668D;
+}
+
+.bg2{
+    background-color:#8ECDDD;
+}
+
+.bg3{
+    background-color: #FFFADD;
+}
+
+.bg4{
+    background-color: #ffcc70;
+}
+
+.color1{
+    color: #22668D;
+}
+.color2{
+    color: #8ecddd !important;;    
+}
+.color3 {
+   color: white;
+}
+.color4{
+    color: black;
+}
+
+
+.nav-link{
+    color: #000!important;
+    font-family: 'Raleway';
+}
